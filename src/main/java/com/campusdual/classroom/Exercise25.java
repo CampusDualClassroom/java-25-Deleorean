@@ -19,8 +19,7 @@ public class Exercise25 {
     }
 
     public static void main(String[] args) {
-    Stack<String> newStack = createStack();
-    printAndEmptyStack(newStack);
+    printAndEmptyStack(createStack());
     }
 
 
